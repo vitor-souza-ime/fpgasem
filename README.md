@@ -43,11 +43,8 @@ Para sintetizar e programar o projeto na placa Tang Nano 1K você precisa:
 Para gerar um bitstream e programar a FPGA:
 
 1. Clone o repositório:
-   ```bash
    git clone https://github.com/vitor-souza-ime/fpgasem.git
    cd fpgasem
-````
-
 2. Abra o **Gowin FPGA Designer** e crie um novo projeto.
 3. Selecione o dispositivo alvo **GW1NZ-LV1QN48C6/I5** (Tang Nano 1K).
 4. Adicione os arquivos `sem.v` e `fpga.cst` ao projeto.
